@@ -1,10 +1,11 @@
 import Button from "../Button"
+import Icon from "../Icon/index"
 import { StyledHeader } from "./styles"
 
 export default function HeaderBox() {
   return (
     <StyledHeader>
-      <img src="/webmotors-logo-8.png" alt="logomarca" />
+      <Icon />
       <section className="buttons">
         <div className="buttons-buy">
           <Button>
@@ -13,7 +14,6 @@ export default function HeaderBox() {
           <Button>
             Comprar Motos
           </Button>
-
         </div>
         <div className="button-sell">
           <Button>

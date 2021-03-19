@@ -1,13 +1,9 @@
-import styles from '../styles/Home.module.css'
-import HeaderBox from '../components/HeaderBox'
+import ContainerBox from '../components/ContainerBox'
 
 export default function Home() {
   return (
     <>
-      <section className="container-box">
-        <HeaderBox />
-
-      </section>
+      <ContainerBox />
     </>
 
   )
